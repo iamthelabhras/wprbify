@@ -538,7 +538,9 @@ This script utilizies the following Python standard library modules:
 
 ### Functions
 
-In this section, provides a comprehensive overview of the functions used in the WPRBify script. These functions serve as the building blocks of the script's functionality & work together to fetch track information, search for matching tracks on Spotify, calculate similarity scores, & create Spotify playlists.
+This section provides a comprehensive overview of the functions used in the WPRBify script. 
+
+These functions serve as the building blocks of the script's functionality & work together to fetch track information, search for matching tracks on Spotify, calculate similarity scores, & create Spotify playlists.
 
 #### `extract_track_info(html_content)`
 
