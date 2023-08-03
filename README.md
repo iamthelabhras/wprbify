@@ -501,21 +501,21 @@ Here, you'll find a detailed breakdown of:
 
 This script utilizes the following Python libraries:
 
-- `spotipy`: Provides a convenient interface to interact with Spotify's Web API. It allows the script to search for tracks, create playlists, & access other music-related information from your Spotify account.
+- `spotipy` [(docs)](https://spotipy.readthedocs.io): Provides a convenient interface to interact with Spotify's Web API. It allows the script to search for tracks, create playlists, & access other music-related information from your Spotify account.
 
-- `beautifulsoup4`: A powerful library used for web scraping. It allows the script to extract track information from the HTML content of the WPRB playlist page or a locally saved HTML file.
+- `beautifulsoup4` [(docs)](https://tedboy.github.io/bs4_doc/): A powerful library used for web scraping. It allows the script to extract track information from the HTML content of the WPRB playlist page or a locally saved HTML file.
 
-- `inflection`: A library that provides utilities for English word inflection. It is used to correctly format track names & artist names when searching for tracks on Spotify.
+- `inflection` [(docs)](https://inflection.readthedocs.io/en/latest/): A library that provides utilities for English word inflection. It is used to correctly format track names & artist names when searching for tracks on Spotify.
 
-- `termcolor`: Adds color to text output in the terminal, making it easier to distinguish different elements of the script's output.
+- `termcolor` [(docs)](https://pypi.org/project/termcolor/): Adds color to text output in the terminal, making it easier to distinguish different elements of the script's output.
 
-- `tqdm`: A fast & extensible library for progress bars. It is used to display progress bars during the track search process, making it more interactive & visually appealing.
+- `tqdm` [(docs)](https://tqdm.github.io/): A fast & extensible library for progress bars. It is used to display progress bars during the track search process, making it more interactive & visually appealing.
 
-- `tabulate`: A library that helps to create ASCII tables. It is used to format the tabulated list of search results, making it easier for the user to review & select tracks from the command line.
+- `tabulate` [(docs)](https://pypi.org/project/tabulate/): A library that helps to create ASCII tables. It is used to format the tabulated list of search results, making it easier for the user to review & select tracks from the command line.
 
-- `prettytable`: Another library for creating ASCII tables. It is used to generate a neatly formatted table of tracks that were not found in Spotify or were skipped during the search process.
+- `prettytable` [(docs)](https://pypi.org/project/prettytable/): Another library for creating ASCII tables. It is used to generate a neatly formatted table of tracks that were not found in Spotify or were skipped during the search process.
 
-- `requests`: Used to send HTTP requests & handle responses. It is used in the web scraping process to fetch the HTML content of the WPRB playlist page.
+- `requests` [(docs)](https://pypi.org/project/requests/): Used to send HTTP requests & handle responses. It is used in the web scraping process to fetch the HTML content of the WPRB playlist page.
 
 These libraries must be installed on your machine in order for WPRBify to run properly.  You can install them in one go from the command line via:
 
@@ -527,13 +527,13 @@ pip install spotipy beautifulsoup4 argparse inflection termcolor tqdm tabulate p
 
 This script utilizies the following Python standard library modules:
 
-- `argparse`: Makes it easy to write user-friendly command-line interfaces. Allows the script to accept input arguments, such as the WPRB playlist URL & the name of the new Spotify playlist, when running the script from the command line.
+- `argparse` [(docs)](https://docs.python.org/3/library/argparse.html): Makes it easy to write user-friendly command-line interfaces. Allows the script to accept input arguments, such as the WPRB playlist URL & the name of the new Spotify playlist, when running the script from the command line.
 
-- `re`: Provides support for regular expressions, enabling efficiently pattern matching & text manipulation in strings.
+- `re` [(docs)](https://docs.python.org/3/library/re.html): Provides support for regular expressions, enabling efficiently pattern matching & text manipulation in strings.
 
-- `shutil`: A collection of high-level file operations & file system utility functions, simplifying tasks like copying, moving, & deleting files & directories.
+- `shutil` [(docs)](https://docs.python.org/3/library/shutil.html): A collection of high-level file operations & file system utility functions, simplifying tasks like copying, moving, & deleting files & directories.
 
-- `os`: Supplies a wide range of operating system-dependent functionalities, including file and directory management, process control, & environment variables access.
+- `os` [(docs)](https://docs.python.org/3/library/os.html): Supplies a wide range of operating system-dependent functionalities, including file and directory management, process control, & environment variables access.
 
 
 ### Functions
