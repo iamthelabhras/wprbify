@@ -538,7 +538,7 @@ This script utilizies the following Python standard library modules:
 
 ### Functions
 
-In this section, we provide a comprehensive overview of the functions used in the WPRBify script. These functions serve as the building blocks of the script's functionality & work together to fetch track information, search for matching tracks on Spotify, calculate similarity scores, & create personalized Spotify playlists.
+In this section, provides a comprehensive overview of the functions used in the WPRBify script. These functions serve as the building blocks of the script's functionality & work together to fetch track information, search for matching tracks on Spotify, calculate similarity scores, & create Spotify playlists.
 
 #### `extract_track_info(html_content)`
 
@@ -677,9 +677,16 @@ Fetches HTML content from a URL or file path.
 
 ### Similarity Score
 
-The similarity score is a numerical value between 0 & 100 that indicates how closely the track data from the WPRB playlist matches the corresponding track data found on Spotify. The higher the similarity score, the closer the match between the two sets of track data.
+The similarity score is a numerical value between 0 & 100 that indicates how closely the track data extracted from WPRB playlists matches the corresponding track data found in Spotify search results. The higher the similarity score, the closer the match between the two sets of data.
 
-The calculation of the similarity score involves the following steps: normalization, comparison, weight average calculation & final score generation.  The sub-sections below explain each step in greater & document the code associated with each step. 
+The calculation of the similarity score involves the following steps: 
+
+- Normalization
+- Comparison
+- Weight average calculation 
+- Final score generation.  
+ 
+The sub-sections below explain each step in greater detail.  Each sub-section also documents the code associated with each step.
 
 #### Normalization
 
