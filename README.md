@@ -67,7 +67,7 @@ Sometimes WPRB tracks simply aren't available on Spotify, in which case none of 
 
 In the highly unlikely event a search of Spotify's music library returns _no_ results, the script will automatically skip the WPRB playlist track & continue processing a playlist without any input from the user.
 
-The script also keeps tabs on any WPRB playlist tracks it hasn't added to a Spotify playlist.  If any such tracks exist, the script outputs a text file when it finishes running containing these tracks' data (song, artist, album).  
+The script also keeps tabs on any WPRB playlist tracks it hasn't added to a Spotify playlist.  If any such tracks exist, the script outputs a text file when it finishes running containing these tracks' data (i.e. song, artist, album).  
 
 You're free to do anything you like with this text file -  including deleting it - but I recommend using it to manually search Spotify's music library & confirm the missing tracks are, indeed, unavailable on Spotify.  No computer program is perfect!
 
