@@ -99,7 +99,7 @@ If this sounds like you, follow the step-by-step instructions below to get WPRBi
 
 ### I. Set Up Spotify API Credentials:
 
-Spotify's API ("Application Programming Interface") acts as a bridge between the WPRBify & Spotify's vast music library & services. It allows the script to communicate with Spotify's servers, enabling functions like searching for tracks, creating playlists, & accessing other music-related information from your Spotify account. Think of an API as a set of rules & protocols that allow different software applications to communicate with each other.  Sort of like Esperanto, but useful.
+Spotify's API ("Application Programming Interface") acts as a bridge between WPRBify & Spotify's vast music library & services. It allows the script to communicate with Spotify's servers, enabling functions like searching for tracks, creating playlists, & accessing other music-related information from your Spotify account. Think of an API as a set of rules & protocols that allow different software applications to communicate with each other.  Sort of like Esperanto, but useful.
 
 Before we tackle downloading & configuring the Python script itself, we'll need to set up your Spotify API credentials.
 
@@ -292,7 +292,7 @@ As you probably noticed, WPRBify "lives" here on GitHub.  In order to properly c
 
 #### 4. Move `wprbify.py` Into Your Documents Folder 
 
-> To make it as easy as possible for us to configure & run the WPRBify, we're going to move it into the `Documents` folder of your computer.
+> To make it as easy as possible for us to configure & run WPRBify, we're going to move it into the `Documents` folder of your computer.
 >
 > **Windows**:
 >
@@ -314,7 +314,7 @@ As you probably noticed, WPRBify "lives" here on GitHub.  In order to properly c
 
 ### IV.  Configuring The WPRB Playlist Script
 
-Now that we've downloaded the WPRBify to computer & moved it into your `Documents` folder, we need to configure it so it will run properly.
+Now that we've downloaded WPRBify to computer & moved it into your `Documents` folder, we need to configure it so it will run properly.
 
 #### 1. Open The Script In A Text Editor
 
@@ -396,7 +396,7 @@ _Maith thú!_  Now it's (finally) time to fire up WPRBify & create our first Spo
 
 ####    1.  Open Spotify.
 
-> It's _very important_ Spotify is open & running on your computer the first time you run the WPRBify.  
+> It's _very important_ Spotify is open & running on your computer the first time you run WPRBify.  
 > 
 > - If Spotify isn't already open on your computer, go ahead & open it now.  
 
