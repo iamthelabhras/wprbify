@@ -1,0 +1,10 @@
+# GITIGNORE
+
+## System Files
+.DS_Store
+
+## Misc
+
+### README.md assets uploaded directly to GitHub.
+wprb.png
+screen_recording.mp4
