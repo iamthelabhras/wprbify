@@ -1,5 +1,5 @@
 # WPRBIFY
-![wprb](https://github.com/iamthelabhras/wprbify/assets/17169600/fca3283b-d31c-4e94-b357-2d50701f7255)
+![wprb](https://github.com/iamthelabhras/wprbify/assets/17169600/4dc1b1b1-13da-402a-bf52-c458849a5326)
 
 WPRBify is a Python script (`wprbify.py`) that allows users to quickly & easily convert a WPRB playlist into a Spotify playlist.  
 
@@ -48,7 +48,11 @@ It's probably easier for me to _show_ you how this works rather than tell you.
 Here's a screen recording of me using WPRBify to process a recent (2023-07-30) [Princeton Blue Ribbon](https://playlists.wprb.com/WPRB/show/208579/Princeton-Blue-Ribbon) playlist:
 
 
-https://github.com/iamthelabhras/wprbify/assets/17169600/954386e9-4cf7-4933-8ca1-7a8b34a2d66d
+
+
+https://github.com/iamthelabhras/wprbify/assets/17169600/8f75cd17-17d8-4388-be1b-ef5f08bc4f0c
+
+
 
 
 Pretty cool, right?  (And yes, Smog's _Supper_ is an amazing album!)
