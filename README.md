@@ -312,7 +312,7 @@ As you probably noticed, WPRBify "lives" here on GitHub.  In order to properly c
 > - Select "Paste".
  
 
-### IV.  Configuring The WPRB Playlist Script
+### IV.  Configure the `wprbify.py` Script
 
 Now that we've downloaded WPRBify to computer & moved it into your `Documents` folder, we need to configure it so it will run properly.
 
