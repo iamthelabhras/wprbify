@@ -489,33 +489,46 @@ See?  I told you you didn't need a Computer Science degree to get this working o
 
 This section delves into the inner workings of the `wprbify.py` script. If you are familiar with programming concepts, Python, & APIs, I hope you'll find this section interesting. Here, you'll find a more detailed breakdown of the the Python libraries this depends on, how the "similarity scores" that WPRB playlist tracks with their corresponding tracks on Spotify are calculated, as well as detailed breakdown of the functions in the script itself.
 
-### Dependencies & Libraries 
+### Dependencies 
 
-This script requires the following Python libraries to be installed:
+#### Libraries 
 
-- spotipy: This library provides a convenient interface to interact with Spotify's Web API. It allows the script to search for tracks, create playlists, & access other music-related information from your Spotify account.
+This script utilizes the following Python libraries:
 
-- beautifulsoup4: Beautiful Soup is a powerful library used for web scraping. It allows the script to extract track information from the HTML content of the WPRB playlist page or a locally saved HTML file.
+- `spotipy`: Provides a convenient interface to interact with Spotify's Web API. It allows the script to search for tracks, create playlists, & access other music-related information from your Spotify account.
 
-- argparse: Argparse is a Python standard library module that makes it easy to write user-friendly command-line interfaces. It allows the script to accept input arguments, such as the WPRB playlist URL & the name of the new Spotify playlist, when running the script from the command line.
+- `beautifulsoup4`: A powerful library used for web scraping. It allows the script to extract track information from the HTML content of the WPRB playlist page or a locally saved HTML file.
 
-- inflection: Inflection is a library that provides utilities for English word inflection. It is used to correctly format track names & artist names when searching for tracks on Spotify.
+- `inflection`: A library that provides utilities for English word inflection. It is used to correctly format track names & artist names when searching for tracks on Spotify.
 
-- termcolor: This library adds color to text output in the terminal, making it easier to distinguish different elements of the script's output.
+- `termcolor`: Adds color to text output in the terminal, making it easier to distinguish different elements of the script's output.
 
-- tqdm: tqdm is a fast & extensible library for progress bars. It is used to display progress bars during the track search process, making it more interactive & visually appealing.
+- `tqdm`: A fast & extensible library for progress bars. It is used to display progress bars during the track search process, making it more interactive & visually appealing.
 
-- tabulate: Tabulate is a library that helps to create ASCII tables. It is used to format the tabulated list of search results, making it easier for the user to review & select tracks from the command line.
+- `tabulate`: A library that helps to create ASCII tables. It is used to format the tabulated list of search results, making it easier for the user to review & select tracks from the command line.
 
-- prettytable: PrettyTable is another library for creating ASCII tables. It is used to generate a neatly formatted table of tracks that were not found in Spotify or were skipped during the search process.
+- `prettytable`: Another library for creating ASCII tables. It is used to generate a neatly formatted table of tracks that were not found in Spotify or were skipped during the search process.
 
-- requests: The requests library is used to send HTTP requests & handle responses. It is used in the web scraping process to fetch the HTML content of the WPRB playlist page.
+- `requests`: Used to send HTTP requests & handle responses. It is used in the web scraping process to fetch the HTML content of the WPRB playlist page.
 
-You can install these dependencies using the following command:
+These libraries must be installed on your machine in order for WPRBify to run properly.  You can install them in one go from the command line via:
 
 ```bash
 pip install spotipy beautifulsoup4 argparse inflection termcolor tqdm tabulate prettytable requests
 ````
+
+#### Modules
+
+This script utilizies the following Python standard library modules:
+
+- `argparse`: Makes it easy to write user-friendly command-line interfaces. Allows the script to accept input arguments, such as the WPRB playlist URL & the name of the new Spotify playlist, when running the script from the command line.
+
+- `re`: Provides support for regular expressions, enabling efficiently pattern matching & text manipulation in strings.
+
+- `shutil`: A collection of high-level file operations & file system utility functions, simplifying tasks like copying, moving, & deleting files & directories.
+
+- `os`: Supplies a wide range of operating system-dependent functionalities, including file and directory management, process control, & environment variables access.
+
 
 ### Functions
 
