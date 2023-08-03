@@ -5,7 +5,7 @@ WPRBify is a Python script (`wprbify.py`) that allows users to quickly & easily 
 
 And when I say quickly, I mean _quickly_: in my experience, this script can process a 3-hour, 40+ song playlist in about 1 minute!
 
-Once properly configured on your computer, this script can be executed on command line via:
+Once properly configured on your computer, this script can be executed on the command line via:
 
 ```bash
 python wprbify.py <input_source> "<playlist_name>"
