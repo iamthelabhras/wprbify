@@ -686,7 +686,7 @@ The calculation of the similarity score involves the following steps:
 - Normalization
 - Comparison
 - Weight average calculation 
-- Final score generation.  
+- Final score generation
  
 The sub-sections below explain each step in greater detail.  Each sub-section also documents the code associated with each step.
 
