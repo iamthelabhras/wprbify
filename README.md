@@ -474,9 +474,9 @@ _Maith thú!_  Now it's (finally) time to fire up WPRBify & create our first Spo
 > 
 > All you need to do now is sit back, watch the script generate your Spotify playlist, & provide your user input as needed. (See the [Overview](#overview) section above for more details about user input.) 
 >
-> Once the script has completed running, your new Spotify playlist should appear in your Spotify account.  
+> Once WPRBify has finished running, your new Spotify playlist should be visible in your Spotify account.  
 > 
-> Additionally, if the script was unable to add any WPRB playlist tracks to your new Spotify list, a list of those tracks will saved be saved to the `Documents` folder on your computer as `YOUR_PLAYLIST_NAME-not_in_spotify.txt`. 
+> Additionally, if the script was unable to add any WPRB playlist tracks to your new Spotify playlist, a list of those tracks will be saved within your computer's `Documents` folder as `YOUR_PLAYLIST_NAME-not_in_spotify.txt`. 
 
 _Comhghairdeas_!  🎉🎉🎉
 
