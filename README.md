@@ -235,7 +235,7 @@ The command line, also known as the terminal or the shell, is a text-based inter
 > - Copy & paste the code snippet below into the command line:
 > 
 > ```bash
-> pip install spotipy beautifulsoup4 argparse inflection termcolor tqdm tabulate prettytable requests
+> pip install beautifulsoup4 inflection prettytable spotipy termcolor tabulate tqdm requests
 > ```
 >
 > - Press `Enter/Return`.
@@ -501,26 +501,27 @@ Here, you'll find a detailed breakdown of:
 
 This script utilizes the following Python libraries:
 
-- `spotipy` [(docs)](https://spotipy.readthedocs.io): Provides a convenient interface to interact with Spotify's Web API. It allows the script to search for tracks, create playlists, & access other music-related information from your Spotify account.
 
-- `beautifulsoup4` [(docs)](https://tedboy.github.io/bs4_doc/): A powerful library used for web scraping. It allows the script to extract track information from the HTML content of the WPRB playlist page or a locally saved HTML file.
+- `beautifulsoup4` [(docs)](https://tedboy.github.io/bs4_doc/): Web scraping. Allows the script to extract track information from the HTML content of the WPRB playlist page or a locally saved HTML file.
 
-- `inflection` [(docs)](https://inflection.readthedocs.io/en/latest/): A library that provides utilities for English word inflection. It is used to correctly format track names & artist names when searching for tracks on Spotify.
+- `inflection` [(docs)](https://inflection.readthedocs.io/en/latest/): Utilities for English word inflection. Used to correctly format track names & artist names when searching for tracks on Spotify.
 
-- `termcolor` [(docs)](https://pypi.org/project/termcolor/): Adds color to text output in the terminal, making it easier to distinguish different elements of the script's output.
+- `prettytable` [(docs)](https://pypi.org/project/prettytable/): ASCII table creation. Used to generate a neatly formatted table of tracks that were not found in Spotify or were skipped during the search process.
 
-- `tqdm` [(docs)](https://tqdm.github.io/): A fast & extensible library for progress bars. It is used to display progress bars during the track search process, making it more interactive & visually appealing.
+- `spotipy` [(docs)](https://spotipy.readthedocs.io): Interface to interact with Spotify's Web API. Allows the script to search for tracks, create playlists, & access other music-related information from your Spotify account.
 
-- `tabulate` [(docs)](https://pypi.org/project/tabulate/): A library that helps to create ASCII tables. It is used to format the tabulated list of search results, making it easier for the user to review & select tracks from the command line.
+- `termcolor` [(docs)](https://pypi.org/project/termcolor/): Colors text output in the terminal. Makes it easier to distinguish different elements of the script's output.
 
-- `prettytable` [(docs)](https://pypi.org/project/prettytable/): Another library for creating ASCII tables. It is used to generate a neatly formatted table of tracks that were not found in Spotify or were skipped during the search process.
+- `tabulate` [(docs)](https://pypi.org/project/tabulate/): ASCII table creation. Formats the tabulated list of search results, making it easier for the user to review & select tracks from the command line.
 
-- `requests` [(docs)](https://pypi.org/project/requests/): Used to send HTTP requests & handle responses. It is used in the web scraping process to fetch the HTML content of the WPRB playlist page.
+- `tqdm` [(docs)](https://tqdm.github.io/): Progress bars. Displays progress bars during the track search process, making it the script's operations more interactive & visually appealing.
+
+- `requests` [(docs)](https://pypi.org/project/requests/): Send HTTP requests & handle responses. Used in the web scraping process to fetch the HTML content of the WPRB playlist page.
 
 These libraries must be installed on your machine in order for WPRBify to run properly.  You can install them in one go from the command line via:
 
 ```bash
-pip install spotipy beautifulsoup4 argparse inflection termcolor tqdm tabulate prettytable requests
+pip install beautifulsoup4 inflection prettytable spotipy termcolor tabulate tqdm requests
 ````
 
 #### Modules
@@ -529,11 +530,14 @@ This script utilizies the following Python standard library modules:
 
 - `argparse` [(docs)](https://docs.python.org/3/library/argparse.html): Makes it easy to write user-friendly command-line interfaces. Allows the script to accept input arguments, such as the WPRB playlist URL & the name of the new Spotify playlist, when running the script from the command line.
 
+- `difflib` [(docs)](https://docs.python.org/3/library/difflib.html): Provides classes & functions for comparing sequences. It is used to compute the differences between sequences, which can be useful for tasks such as text comparison, version control, & finding similarities between strings.
+
+- `os` [(docs)](https://docs.python.org/3/library/os.html): Supplies a wide range of operating system-dependent functionalities, including file and directory management, process control, & environment variables access.
+
 - `re` [(docs)](https://docs.python.org/3/library/re.html): Provides support for regular expressions, enabling efficiently pattern matching & text manipulation in strings.
 
 - `shutil` [(docs)](https://docs.python.org/3/library/shutil.html): A collection of high-level file operations & file system utility functions, simplifying tasks like copying, moving, & deleting files & directories.
 
-- `os` [(docs)](https://docs.python.org/3/library/os.html): Supplies a wide range of operating system-dependent functionalities, including file and directory management, process control, & environment variables access.
 
 
 ### Functions
