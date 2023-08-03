@@ -526,7 +526,7 @@ pip install beautifulsoup4 inflection prettytable spotipy termcolor tabulate tqd
 
 #### Modules
 
-This script utilizies the following Python standard library modules:
+This script utilizes the following Python standard library modules:
 
 - `argparse` [(docs)](https://docs.python.org/3/library/argparse.html): Makes it easy to write user-friendly command-line interfaces. Allows the script to accept input arguments, such as the WPRB playlist URL & the name of the new Spotify playlist, when running the script from the command line.
 
