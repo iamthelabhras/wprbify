@@ -487,7 +487,13 @@ See?  I told you you didn't need a Computer Science degree to get this working o
 
 ## Nerd Stuff For Nerds
 
-This section delves into the inner workings of the `wprbify.py` script. If you are familiar with programming concepts, Python, & APIs, I hope you'll find this section interesting. Here, you'll find a more detailed breakdown of the the Python libraries this depends on, how the "similarity scores" that WPRB playlist tracks with their corresponding tracks on Spotify are calculated, as well as detailed breakdown of the functions in the script itself.
+This section delves into the inner workings of the `wprbify.py` script. If you are familiar with programming concepts, Python, & APIs, I hope you'll find this section interesting!
+
+Here, you'll find a more breakdown of:
+
+- The Python libraries & modules WPRBify depends on to run properly.
+- A detailed breakdown of the WPRBify's functions. 
+- How WPRBify calculates the "similarity scores" which correlated WPRB playlist track data with Spotify search result data
 
 ### Dependencies 
 
