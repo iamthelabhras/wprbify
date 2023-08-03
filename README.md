@@ -489,7 +489,7 @@ See?  I told you you didn't need a Computer Science degree to get this working o
 
 This section delves into the inner workings of the `wprbify.py` script. If you are familiar with programming concepts, Python, & APIs, I hope you'll find this section interesting!
 
-Here, you'll find a more breakdown of:
+Here, you'll find a detailed breakdown of:
 
 - The Python libraries & modules WPRBify depends on to run properly.
 - A detailed breakdown of the WPRBify's functions. 
