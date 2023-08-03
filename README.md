@@ -519,7 +519,7 @@ pip install spotipy beautifulsoup4 argparse inflection termcolor tqdm tabulate p
 
 ### Functions
 
-In this section, we provide a comprehensive overview of the essential functions used in the WPRB to Spotify Playlist Creator script. These functions serve as the building blocks of the script's functionality & work together to fetch track information, search for matching tracks on Spotify, calculate similarity scores, & create personalized Spotify playlists.
+In this section, we provide a comprehensive overview of the functions used in the WPRBify script. These functions serve as the building blocks of the script's functionality & work together to fetch track information, search for matching tracks on Spotify, calculate similarity scores, & create personalized Spotify playlists.
 
 #### `extract_track_info(html_content)`
 
