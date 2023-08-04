@@ -492,7 +492,7 @@ This section delves into the inner workings of the `wprbify.py` script. If you a
 Here, you'll find a detailed breakdown of:
 
 - The Python libraries & modules WPRBify depends on to run properly.
-- A detailed breakdown of the WPRBify's functions. 
+- A detailed breakdown of the WPRBify script's functions. 
 - How WPRBify calculates the "similarity scores" which correlated WPRB playlist track data with Spotify search result data
 
 ### Dependencies 
