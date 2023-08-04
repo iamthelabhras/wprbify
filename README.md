@@ -245,7 +245,7 @@ The command line, also known as the terminal or the shell, is a text-based inter
 
 ### III.  Download, Extract, & Move The `wprbify.py` Script 
 
-As you probably noticed, WPRBify "lives" here on GitHub.  In order to properly configure & run WPRBify, thought, we need to download a copy of it onto your computer.
+As you probably noticed, WPRBify "lives" here on GitHub.  In order to properly configure & run WPRBify, though, we need to download a copy of it onto your computer.
 
 #### 1. Download The Script As A Zip file 
 
