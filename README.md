@@ -199,7 +199,7 @@ The command line, also known as the terminal or the shell, is a text-based inter
 
 > To perform this check:
 > 
-> - Type `python --version` - into the command line.
+> - Type `python --version` into the command line.
 > - Press `Enter/Return`.
 > 
 > If Python is installed on your computer, you'll see a version number displayed on your screen. (On my Macbook, this command currently outputs `Python 3.11.4`.)  
