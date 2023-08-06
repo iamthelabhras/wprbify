@@ -55,7 +55,7 @@ https://github.com/iamthelabhras/wprbify/assets/17169600/8f75cd17-17d8-4388-be1b
 
 
 
-Pretty cool, right?  (And yes, Smog's _Supper_ is an amazing album!)
+Pretty cool, right?  (And yes, [Smog's _Supper](https://open.spotify.com/album/7uk1aaKzZp5c3qsKmWKy73?si=A_tjd-70QYi8S0OK4aZwIA)_ is an amazing album!)
 
 As you may have noticed, many of the playlist tracks processed by this script were _automatically_ added to the Spotify playlist.  
   
